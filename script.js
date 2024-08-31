@@ -76,6 +76,7 @@ const getCityCoordinates = () => {
     });
 }
 
+
 const getUserCoordinates = () => {
     navigator.geolocation.getCurrentPosition(
         position => {
